@@ -5,7 +5,15 @@ body{
 link {
   display: none;
 }
+.portfolioText-manipulation{
 
+  font-family: fantasy;
+}
+.pastProjects{
+  text-align: center;
+  font-size:xx-large;
+  font-family:fantasy;
+}
 .homeHeader{
   background-color: rgb(234, 141, 234);
   width: 4px 100%;
@@ -58,8 +66,10 @@ nav{
   font-size: large;
   padding-block: 10px;
 }
+
 .hover{
   cursor: pointer;
+  text-decoration:none; /* notsure why the line will not remove itself, if I change the feature (ex. line-through) it works*/
 }
 img{
 
