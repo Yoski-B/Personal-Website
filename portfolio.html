@@ -10,7 +10,7 @@
   <title>Amber Bijou's Professional Portfolio</title>
 </head>
 <body>
-  <nav>
+  <nav class="hover" class="nav">
   <a href="./index.html">Home</a>
   <a href="./about.html">About</a>
   <a href="./portfolio.html">Portfolio</a>
@@ -19,10 +19,41 @@
 
 <h1>Portfolio</h1>
 
-<div>
-    <h2 class="pastProjects">Past Projects</h2>
+<div class="flexContainer">
+    <h2 class="portfolio">Current Projects</h2>
 
          <h3>Everybody Eats</h3>
+
+            <p class="portfolioText-manipulation">Everybody Eats is a comprehensive social networking
+              platform for food & beverage services, providers, and their customers that enables industry 
+              professionals to promote & expand their business, monetize their expertise, collaborate 
+              effortlessly, access key resources, and thrive in a competitive online market. Work contribution 
+              includes business plan development & research, UX/UI design, software development in progress.
+            </p>
+
+          <div class="row">
+            <div class="column">
+            <img class="img" class="margin-top" src="everybodyeats1_1.jpeg" alt="EverybodyEats1"/>
+            </div>
+
+            <div class="column">
+            <img class="img" class="margin-top" src="everybodyeats2_1.jpeg" alt="EverybodyEats2"/>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="column">
+            <img class="img" class="margin-top" src="everybodyeats3_1.jpeg" alt="EverybodyEats3"/>
+            </div>
+
+            <div class="column">
+            <img class="img" class="margin-top" src="everybodyeats4_1.jpeg" alt="EverybodyEats4"/>
+            </div>
+          </div>
+<div class="flexContainer">
+    <h2 class="portfolio">Past Projects</h2>
+
+         <h3>Project 1</h3>
 
             <p class="portfolioText-manipulation">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
@@ -36,7 +67,30 @@
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
             dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
+            </p>
+          </br>
+          <h2>Interested in working with me?</h2>
+          <h3>Complete the contact form below:</h3>
+          <div class="formAlignment">
+            <form action="/success.html">
+                <label for="fname">First Name:</label>
+                <br/>
+                <input type="text" name="fname" value="" placeholder="John" id="fname"/>
+                <br/>
+                <label for="lname">Last Name:</label>
+                <br/>
+                <input type="text" name="lname" value="" placeholder="Doe" id="lname"/>
+                <br/>
+                <label for="email">Email:</label>
+                <br/>
+                <input type="email" name="email" id="email"/>
+                <br/>
+                <label for="message">Leave a brief message detailing your interest:</label>
+                </br>
+                <textarea rows="10" cols="20"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+          </div>
 
 </div>
 
